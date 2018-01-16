@@ -1,0 +1,40 @@
+****************************************************
+Pascale Young Choang		    0985717
+The class name		The assignment name/number
+The date			wyoungch@mail.uoguelph.ca
+****************************************************
+
+
+************************
+Program Description
+**************************
+This program implements the use of a hash table to manage passwords and their system descriptor.
+Use of ncurse for the UI.
+
+************
+Compilation
+************
+ To compile this code:
+ run: make
+
+  Detailed Make options:
+
+  make  runs the cppcheck option
+  make prog  compiles the main.c program with the library
+  make doxy creates the doxygen documentation in the docs subdirectory
+  make clean removes executable files
+
+****************************
+Known Limitations, Issues and Errors
+****************************
+For the search, you will have to enter the matching product name
+I wasn't able to do a partial-match search :/
+Then to add the item, you will have to type in the correct product ID
+which I have displayed.
+
+
+*********************************
+-Implemented additon #3 where the person can edit the invoice
+
+Note: I wasn't sure if I should put the csv file in the folder or Not
+If not please delete it in the assets folder.
